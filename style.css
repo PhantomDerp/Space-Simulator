@@ -1,0 +1,43 @@
+html, body, h1, h3, #canvas, #leftbar {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto Mono';
+}
+
+table, td, th {
+  border: 2px solid;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table {
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 1px 2px 5px #232323
+}
+
+td, th {
+  padding: 1px;
+}
+
+#canvas {
+  position: fixed;
+  left: 0;
+  height: 100%;
+  background-color: #000000;
+  width: 75%;
+}
+
+#leftbar {
+  position: fixed;
+  right: 0;
+  height: 100%;
+  background-color: #666666;
+  width: 25%;
+  border-color: #bbbbbb;
+  border-left-style: solid;
+  text-align: center;
+}
